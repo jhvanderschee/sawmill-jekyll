@@ -11,5 +11,3 @@ blocks:
 - template: contact
   heading: test@test.com
 ---
-[Forestry page blocks](/)
-[Jekyll sections](/sections.html)
