@@ -7,10 +7,3 @@ fields:
   - media-feature
   label: Blocks
   name: blocks
-- type: field_group
-  name: media_feature_velden
-  label: media feature velden
-  fields:
-  - type: text
-    name: heading
-    label: heading
