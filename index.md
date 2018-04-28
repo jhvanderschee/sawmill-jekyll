@@ -7,3 +7,4 @@ blocks:
   heading: test2
 - template: media-feature
 ---
+test body
