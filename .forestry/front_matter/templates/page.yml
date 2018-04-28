@@ -10,3 +10,7 @@ fields:
 - type: field_group
   name: media_feature_velden
   label: media feature velden
+  fields:
+  - type: text
+    name: heading
+    label: heading
