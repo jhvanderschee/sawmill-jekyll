@@ -1,0 +1,25 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- name: sections
+  label: Sections
+  type: field_group_list
+  fields:
+  - name: section
+    label: Section
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
