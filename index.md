@@ -6,6 +6,7 @@ blocks:
 - template: media-feature
   heading: test2
 - template: media-feature
-  heading: test3
+media_feature_velden:
+  heading: group test1
 ---
 test body
