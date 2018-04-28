@@ -7,7 +7,3 @@ fields:
   - media-feature
   label: Blocks
   name: blocks
-- type: include
-  template: stukkie-tekst
-  name: test
-  label: Stukkie tekst
