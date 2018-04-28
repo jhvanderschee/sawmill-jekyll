@@ -7,7 +7,3 @@ defaults:
       layout: "page"
 
 title: Sawmill Jekyll
-
-collections:
-  sections:
-    output: false
