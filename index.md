@@ -11,4 +11,5 @@ blocks:
 - template: contact
   heading: test@test.com
 ---
-test body
+[Forestry page blocks](/)
+[Jekyll sections](/sections.html)
