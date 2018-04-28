@@ -6,5 +6,6 @@ blocks:
 - template: media-feature
   heading: test2
 - template: media-feature
+  heading: test3
 ---
 test body
