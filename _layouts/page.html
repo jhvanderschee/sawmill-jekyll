@@ -13,8 +13,11 @@
         <!-- MEDIA FEATURE -->
         {% if block.template == 'media-feature' %}
             {% include block-mediafeature.html %}
+        <!-- MEDIA FEATURE -->
+        {% if block.template == 'hero-section' %}
+            {% include block-herosection.html %}
         {% endif %}
-    
+
     {% endfor %}
 
     {{ content }}
