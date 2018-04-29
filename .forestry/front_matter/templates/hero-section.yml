@@ -8,7 +8,6 @@ fields:
 - type: text
   name: subheading
   label: Subheading
-<<<<<<< HEAD
 - type: select
   name: background_style
   config:
@@ -39,5 +38,3 @@ fields:
     - Small
   label: Size
   default: Big
-=======
->>>>>>> daf9992beb4054edba31e79b5d707824e638474b
