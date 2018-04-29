@@ -12,8 +12,7 @@
 
         <!-- MEDIA FEATURE -->
         {% if block.template == 'media-feature' %}
-            <h2>{{ block.heading }}</h2>
-            <p>Lorem ipsum...</p>
+            {% include block-mediafeature.html %}
         {% endif %}
     
     {% endfor %}

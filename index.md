@@ -1,6 +1,6 @@
 ---
 title: Forestry page blocks
-layout: forestry_page_blocks
+layout: blocks
 blocks:
 - template: media-feature
   heading: test1
