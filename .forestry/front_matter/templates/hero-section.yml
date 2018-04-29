@@ -5,3 +5,6 @@ fields:
 - type: text
   name: heading
   label: Heading
+- type: text
+  name: subheading
+  label: Subheading
