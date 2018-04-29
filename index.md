@@ -1,14 +1,14 @@
 ---
-title: Sawmill Jekyll home
+title: Page
 blocks:
 - template: media-feature
   heading: test1
 - template: media-feature
   heading: test2
 - template: media-feature
-  heading: test3
-- template: contact
-  heading: test@test.com
+  heading: test
+media_feature_velden:
+  heading: group test1
+layout: ''
 ---
-
-asdf
+test body
