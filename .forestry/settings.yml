@@ -7,3 +7,7 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 collections: 
+  _posts:
+    default_front_matter_template: default
+  _pages:
+    default_front_matter_template: page
