@@ -10,7 +10,6 @@ blocks:
   button_text: View on Github
   background_image: "/uploads/2018/04/29/logs-splash.png"
 - template: body-copy
-  content: "**Sawmill** is a simplistic Hugo theme built to take advantage of [Forestry CMS](https://forestry.io \"Forestry.io\")'s Blocks feature.\n\nThis theme includes a few basic components to get started with Blocks right away and create dynamic, visually interesting layouts. Once you get the hang of Sawmill's modular content strategy, you are encouraged to start creating your own components to fit the needs of your website."
 - template: "hero-section"
   background_style: "Brand Color"
   heading: "Features"
