@@ -2,8 +2,8 @@
 title: Page
 blocks:
 - template: hero-section
-  heading: heading
-  subheading: subheading
+  heading: Sawmill Jekyll
+  subheading: A Modular Layout Builder for Jekyll and Forestry.io
   background_style: Brand Color
   size: Big
   button_url: https://forestry.io
