@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>{{ page.title }}</title>
-</head>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include nav.html %}
+        <main id="primary-content">
+            <h1>{{ page.title }}</h1>
 
-<body>
-
-    <h1>{{ page.title }}</h1>
-
-    {% for block in page.blocks %}
-
-        <!-- MEDIA FEATURE -->
-        {% if block.template == 'media-feature' %}
-            {% include block-mediafeature.html %}
-        <!-- HERO SECTION -->
-        {% elsif block.template == 'hero-section' %}
-            {% include block-herosection.html %}
-        {% endif %}
-
-    {% endfor %}
-
-    {{ content }}
-
-</body>
-
-</html> 
+            {% for block in page.blocks %}
+        
+                <!-- MEDIA FEATURE -->
+                {% if block.template == 'media-feature' %}
+                    {% include block-mediafeature.html %}
+                <!-- HERO SECTION -->
+                {% elsif block.template == 'hero-section' %}
+                    {% include block-herosection.html %}
+                {% endif %}
+        
+            {% endfor %}
+        
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </body>
+</html>

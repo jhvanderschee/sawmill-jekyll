@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    {% assign pagetitle = page.title | append: " | " | append: site.title %}
+    {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
+    <title>{{ pagetitle }}</title>
+    <meta property="og:title" content="{{ pagetitle }}" />
+    <meta name="twitter:title" content="{{ pagetitle | truncate 70 }}" />
+    <meta name="description" content="{{ pagecontent_description }}">
+    <meta property="og:description" content="{{ pagecontent_description }}">
+    <meta name="twitter:description" content="{{ pagecontent_description | truncate 200 }}">
+    <meta name="author" content="{{ site.author }}"/>
+    <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/brand.css" />
+    {% include head-custom.html %}
+</head> 
