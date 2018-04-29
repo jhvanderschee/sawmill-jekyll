@@ -29,14 +29,14 @@ blocks:
   image_shadow: true
 - template: "media-feature"
   background_style: "Dark"
-  content: "This theme is designed to work out-of-the-box with [Forestry.io's](https://forestry.io) **Blocks** feature. Just copy the theme's `.forestry/front_matter/templates` directory into the top level of your project, or get started even faster with the [starter project](https://github.com/dwalkr/sawmill-starter)."
+  content: "This theme is designed to work out-of-the-box with [Forestry.io's](https://forestry.io) **Blocks** feature. Just copy the theme's `.forestry/front_matter/templates` directory into the top level of your project, or get started even faster with the [starter project](https://github.com/jhvanderschee/sawmill-jekyll)."
   heading: "Made For Forestry"
   image: "/uploads/2018/04/19/blocks-ss.png"
   image_position: "Left"
   image_shadow: true
 - template: "call-to-action"
   button_text: "View on Github"
-  button_url: "https://github.com/dwalkr/sawmill"
+  button_url: "https://github.com/jhvanderschee/sawmill-jekyll"
   heading: "Let's Get Started"
 ---
 
