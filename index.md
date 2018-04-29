@@ -1,6 +1,5 @@
 ---
-title: Forestry page blocks
-layout: blocks
+title: Sawmill Jekyll home
 blocks:
 - template: media-feature
   heading: test1
