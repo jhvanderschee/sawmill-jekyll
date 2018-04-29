@@ -3,7 +3,9 @@
     {% include head.html %}
     <body>
         {% include nav.html %}
+        
         <main id="primary-content">
+            <div class="page-blocks">
 
             {% for block in page.blocks %}
         
@@ -13,10 +15,17 @@
                 <!-- HERO SECTION -->
                 {% elsif block.template == 'hero-section' %}
                     {% include block-herosection.html %}
+                <!-- BODY COPY -->
+                {% elsif block.template == 'body-copy' %}
+                    {% include block-bodycopy.html %}
+                <!-- CALL TO ACTION -->
+                {% elsif block.template == 'call-to-action' %}
+                    {% include block-calltoaction.html %}
                 {% endif %}
         
             {% endfor %}
-        
+            
+            </div>
         </main>
         {% include footer.html %}
     </body>

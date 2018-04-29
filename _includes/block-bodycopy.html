@@ -1,7 +1,7 @@
 <section class="section content-section">
     <div class="container">
         <div class="content">
-            {{ page.content }}
+            {{ block.content | markdownify }}
         </div>
     </div>
 </section>
