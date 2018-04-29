@@ -6,8 +6,8 @@ blocks:
   subheading: A Modular Layout Builder for Jekyll and Forestry.io
   background_style: Brand Color
   size: Big
-  button_url: https://forestry.io
-  button_text: Click me!!!
+  button_url: https://github.com/jhvanderschee/sawmill-jekyll
+  button_text: View on Github
   background_image: "/uploads/2018/04/29/logs-splash.png"
 - template: media-feature
   heading: test1
