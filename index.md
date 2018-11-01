@@ -16,6 +16,14 @@ blocks:
   size: Small
   subheading: test
 - template: media-feature
+  background_style: Brand Color
+  image_position: Left
+  heading: nieuwe feature
+  subheading: test
+  content: 'sfasdfsafsdafsafasdfasf ds asdf asdfsd sda sa '
+  image: "/uploads/2018/04/19/headingcolors-1.png"
+  image_shadow: false
+- template: media-feature
   background_style: Light
   content: "[Bulma](https://bulma.io/) is a modern, responsive CSS framework with
     a flexbox-based grid system. "
