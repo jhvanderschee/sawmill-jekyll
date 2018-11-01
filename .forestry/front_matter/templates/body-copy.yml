@@ -1,7 +1,8 @@
 ---
+label: body-copy
 hide_body: false
 is_partial: true
-fields: 
+fields:
 - type: text
   name: heading
   label: Heading
